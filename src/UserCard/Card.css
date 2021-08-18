@@ -1,0 +1,129 @@
+.preloader{
+    width: 170px;
+    height: 170px;
+    border-radius:50%;
+    border:2px solid #e0e9f0;
+    box-shadow: 0 7px 3px 3px rgba(0, 0, 0, 0.3);
+}
+header{
+    height: 100px;
+    background-color: #e0e9f0;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+}
+.get_btn{
+    font-size: 15pt;
+    font-family: 'Times New Roman', Times, serif;
+    width: 22%;
+    margin: 10px;
+    background-color: #8baeaa;
+    color:#3c5148;
+    border:0px solid;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    transition: 0.1s;
+}
+.get_btn span::after{
+    content: '\00bb';
+    opacity: 0;
+    transition: 0.1s;
+}
+.get_btn:hover{
+    transform: scale(1.05);
+    
+}
+.get_btn:hover span::after{
+    opacity: 1;
+}
+#name_field{
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15pt;
+    width: 300px;
+    border:1px solid ;
+    border-radius: 0px;
+    border-color: #3c5148;
+}
+#name_field:focus{
+    outline: 2px solid #3c5148;
+    color:#3c5148;
+}
+
+.Card{
+    height: 600px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    background-color: #e0e9f0;
+}
+.Card_header{
+    padding: 20px;
+    background-color: #141615;
+}
+.Avatar{
+    border:2px solid #e0e9f0;
+    border-radius: 50%;
+}
+.repo{
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.repo_name{
+    color:#3c5148;
+    padding: 5px;
+    background-color: #e0e9f0;
+}
+.repo_list{
+    
+    text-align: justify;
+}
+.go_to_btn{
+    
+    
+    padding: 5px;
+    text-decoration: none;
+    color:#e0e9f0;
+    background-color: #3c5148;
+    border: 1px solid #3c5148;
+    transition: 0.2s;
+}
+.go_to_btn:hover{
+    transform: scaleX(1.1);
+    color:#3c5148;
+    background-color: #e0e9f0;
+    
+}
+
+.go_to_btn span::after{
+    
+    
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.go_to_btn:hover span::after{
+    content: '\00bb';
+    color:#3c5148;
+
+    opacity: 1;
+}
+body{
+    background-color: #3d3d3d;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.pag_btn{
+    width: 30px;
+    height: 30px;
+    margin:5px;
+    font-weight: bolder;
+    border-radius: 50%;
+    background-color: #3c5148;
+    color: #e0e9f0;
+    border:1px solid #3c5148;
+    transition: 0.15s;
+}
+.pag_btn:hover{
+    transform: scale(1.05);
+    color:#3c5148;
+    background-color: #e0e9f0;
+    
+}
